@@ -71,6 +71,18 @@ protected:
     void mouseReleaseEvent(QMouseEvent *event);
     void enterEvent(QEvent *);
     void leaveEvent(QEvent *);
+private slots:
+
+    void on_Button1_clicked();
+    void on_Button2_clicked();
+    void on_ButtonAdd_clicked();
+    void on_ButtonSub_clicked();
+    void on_ButtonAnd_clicked();
+    void on_ButtonOr_clicked();
+    void on_ButtonNot_clicked();
+    void on_ButtonEqual_clicked();
+    void on_ButtonAE_clicked();
+    void on_pushButton_10_clicked();
 };
 
 

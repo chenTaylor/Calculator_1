@@ -96,3 +96,54 @@ void binWidget::leaveEvent(QEvent *)
 }
 
 
+
+
+void binWidget::on_Button1_clicked()
+{
+
+}
+
+void binWidget::on_Button2_clicked()
+{
+
+}
+
+void binWidget::on_ButtonAdd_clicked()
+{
+
+}
+
+void binWidget::on_ButtonSub_clicked()
+{
+
+}
+
+void binWidget::on_ButtonAnd_clicked()
+{
+
+}
+
+void binWidget::on_ButtonOr_clicked()
+{
+
+}
+
+void binWidget::on_ButtonNot_clicked()
+{
+
+}
+
+void binWidget::on_ButtonEqual_clicked()
+{
+
+}
+
+void binWidget::on_ButtonAE_clicked()
+{
+
+}
+
+void binWidget::on_pushButton_10_clicked()
+{
+
+}
