@@ -35,7 +35,8 @@ HEADERS += \
         branchwidget.h \
     decwidget.h \
     binwidget.h \
-    hexwidget.h
+    hexwidget.h \
+    floatnumber.h
 
 FORMS += \
         branchwidget.ui \

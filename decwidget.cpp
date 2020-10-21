@@ -1,5 +1,11 @@
 #include "decwidget.h"
 #include "ui_decwidget.h"
+#include "floatnumber.h"
+#include <QPushButton>
+#include <QTextEdit>
+#include <QString>
+#include <QDialog>
+#include <QDebug>
 
 decWidget::decWidget(QWidget *parent) :
     QWidget(parent),
@@ -16,6 +22,7 @@ decWidget::decWidget(QWidget *parent) :
     this->setWindowFlags(Qt::FramelessWindowHint|Qt::WindowStaysOnTopHint);
 
     movewidget = false;//窗口移动
+
 
     ui->setupUi(this);
 }
@@ -142,6 +149,11 @@ void decWidget::on_Button_9_clicked()
 
 void decWidget::on_Button_0_clicked()
 {
+    if(this->tmp != " ")
+        {
+            this->tmp += this->ui->Button_0->text();
+            this->ui->lbl_display->setText(this->tmp);
+        }
 
 }
 
