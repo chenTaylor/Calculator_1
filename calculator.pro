@@ -26,23 +26,13 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        branchwidget.cpp \
-    decwidget.cpp \
-    binwidget.cpp \
-    hexwidget.cpp
+    deccounter.cpp
 
 HEADERS += \
-        branchwidget.h \
-    decwidget.h \
-    binwidget.h \
-    hexwidget.h \
-    floatnumber.h
+    deccounter.h
 
 FORMS += \
-        branchwidget.ui \
-    decwidget.ui \
-    binwidget.ui \
-    hexwidget.ui
+    deccounter.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

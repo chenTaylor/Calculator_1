@@ -1,10 +1,10 @@
-#include "branchwidget.h"
+#include "deccounter.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    branchWidget w;
+    decCounter w;
     w.show();
 
     return a.exec();
